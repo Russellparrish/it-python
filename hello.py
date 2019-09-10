@@ -1,0 +1,13 @@
+# Write your code here :-)
+print("=======================")
+print("      HELLO WORLD      ")
+print("      by Russell       ")
+print("=======================")
+print("hello, world!")
+
+name = input("what is your name? ")
+print(f"hello,{name}")
+color = input("whats your favorite color?")
+print(f"nice,{color} is my favorite also")
+movie = input("whats your favorite movie?")
+print(f"nice,{movie} is my favorite also")
