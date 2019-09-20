@@ -1,10 +1,10 @@
 import datetime
 from banner import banner
 
-banner("BIRTHDAY", "Russell")
+ banner("BIRTHDAY", "Russell")
 
 # Process
-# 1. Find out birthday from user
+ # 1. Find out birthday from user
 # 2. Calculate how many days apart that is from now
 # 3. Print the birthday info, Days to go, Days ago, or Happy BDay!
 
@@ -17,7 +17,7 @@ def main():
 
 def get_birthday_from_user():
     print("What is your birthday?")
-    year = int(input("Year [YYYY]? "))
+     year = int(input("Year [YYYY]? "))
     month = int(input("Month [MM]? "))
     day = int(input("Day [DD]? "))
 
