@@ -4,7 +4,7 @@ from banner import banner
  banner("BIRTHDAY", "Russell")
 
 # Process
- # 1. Find out birthday from user
+# 1. Find out birthday from user
 # 2. Calculate how many days apart that is from now
 # 3. Print the birthday info, Days to go, Days ago, or Happy BDay!
 

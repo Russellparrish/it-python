@@ -1,3 +1,4 @@
+import journal
 from banner import banner
 banner("DEEP THOUGHTS", "RUSSELL")
 
@@ -5,7 +6,8 @@ def main():
     run_event_loop()
 
 def run_event_loop():
-    journal_data = []
+    filename = 'default'
+    journal_data = journal.load(filename)
     while True:
         command = input('[L]ist entries, [A]dd an entry,E[x]it:')
 
@@ -17,7 +19,7 @@ def run_event_loop():
             break
         else:
             print('sorry I dont understand')
-
+    journal.save(filename, journal_data)
 
 
 
@@ -30,9 +32,8 @@ def list_entries(data):
 
 def add_entries(data):
     entry = input('type your entry, <ENTER> to exit: \n')
-    data.append(entry)
-
-
+    journal.add_entry(entry, data)
+    #data.append(entry)
 
 
 main()

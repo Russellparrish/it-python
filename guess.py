@@ -6,7 +6,7 @@ print("==================")
 print(" ")
 
 name = input("what is your name? ")
-the_number = random.randint(0,10000)
+the_number = random.randint(0,100)
 
 guess = -1
 print(" ")

@@ -24,4 +24,3 @@ print("welcome to Newaygo County zipcode sorter")
 
 
 
-
